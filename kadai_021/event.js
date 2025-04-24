@@ -4,6 +4,6 @@ const text = document.getElementById('text');
 
 btn.addEventListener('click',()=>{
     setTimeout(()=>{
-        text.textContext = 'ボタンをクリックしました'
+        text.textContent = 'ボタンをクリックしました'
     }, 2000);
 });
